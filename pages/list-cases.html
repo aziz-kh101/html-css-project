@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Shope WebSite - List Cases</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/slider.css" />
+    <link
+      rel="shortcut icon"
+      href="../media/images/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="../media/images/header-image.png" alt="nav image" />
+        <ul>
+          <li>
+            <a href="../index.html">home</a>
+          </li>
+          <li class="dropdown">
+            <a href="#">list of components</a>
+            <div class="dropdown-content">
+              <a href="list-computers.html">Computer</a>
+              <a href="#">Computer Cases</a>
+              <a href="list-graphic-cards.html">Carte Graphic</a>
+              <a href="list-monitors.html">Computer Monitor</a>
+              <a href="list-rams.html">Ram</a>
+            </div>
+          </li>
+          <li>
+            <a href="contact.html">contact us</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li class="buttons">
+            <a href="login.html" class="btn cl-btn">login</a>
+            <a href="sign-up.html" class="btn cl-btn rd-btn">signup</a>
+          </li>
+        </ul>
+      </nav>
+      <form action="" method="get">
+        <input
+          name="search"
+          class="text-input"
+          type="search"
+          placeholder="type here..."
+        />
+        <input class="btn rd-btn" type="submit" value="search" />
+        <a href="panier.html">
+          <div class="pannier" data-count="0">
+            <img src="../media/images/panier.png" alt="panier" />
+          </div>
+        </a>
+      </form>
+    </header>
+    <section>
+      <div class="list">
+        <aside class="filter">
+          <h1>Filter</h1>
+          <div class="filter-component">
+            <h5>Price</h5>
+            <div class="slider-container">
+              <div class="slider-track"></div>
+              <input type="range" min="0" max="100" value="0" id="slider-1" />
+              <input type="range" min="0" max="100" value="100" id="slider-2" />
+            </div>
+            <div class="values">
+              <span>0 DT</span>
+              <span>10 000 DT</span>
+            </div>
+          </div>
+
+          <div class="filter-component">
+            <h5>Manufacturers</h5>
+            <input id="lenovo" type="checkbox" />
+            <label for="lenovo"> Lenovo</label>
+            <input id="msi" type="checkbox" /> <label for="msi"> Msi</label>
+            <input id="hp" type="checkbox" /> <label for="hp"> HP</label>
+            <input id="dell" type="checkbox" /> <label for="dell"> Dell</label>
+          </div>
+
+          <div class="filter-component">
+            <h5>capacity</h5>
+            <input id="g8" type="checkbox" />
+            <label for="g8"> 8 Go</label>
+            <input id="g16" type="checkbox" />
+            <label for="g16"> 16 Go</label>
+            <input id="g32" type="checkbox" />
+            <label for="g32"> 32 Go</label>
+          </div>
+
+          <div class="filter-component">
+            <h5>status</h5>
+            <input id="new" type="checkbox" />
+            <label for="new"> New</label>
+            <input id="second" type="checkbox" />
+            <label for="second"> Second Hand </label>
+          </div>
+        </aside>
+
+        <div class="content">
+          <div class="component">
+            <article>
+              <span class="name">PC CASES COUGAR GAMER CONQUER</span>
+              <span class="info">Dimension: 255 x 580 x 685 mm</span>
+              <img src="../media/images/boitier/boiter-conquer.jpg" alt="" />
+              <span class="price">
+                947,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name"
+                >PC CASES MARS GAMING MC51 PREMIUM WHITE ARGB</span
+              >
+              <span class="info">Dimension: 550 x 505 x 327 mm</span>
+              <img src="../media/images/boitier/boitier-mars.webp" alt="" />
+              <span class="price">
+                299,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">PC CASES HAVIT GAMER CF922</span>
+              <span class="info">Dimension: 602 x 500 x 210 mm</span>
+              <img src="../media/images/boitier/boitier-havit.jpg" alt="" />
+              <span class="price">
+                188.000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">PC CASES XIGMATEK AQUARIUS</span>
+              <span class="info">Dimension: 415 x 280 x 427 mm</span>
+              <img
+                src="../media/images/boitier/boitier-gamer-xigmatek-aquarius.jpg"
+                alt=""
+              />
+              <span class="price">
+                415,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name"> PC CASES XIGMATEK X7 GRAND</span>
+              <span class="info">Dimension: 190 x 220 x 480 mm</span>
+              <img
+                src="../media/images/boitier/boitier-gamer-xigmatek-x7.jpg"
+                alt=""
+              />
+              <span class="price">
+                449,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">PC CASES CORSAIR CARBIDE SPEC-OMEGA</span>
+              <span class="info">Dimension: 232 x 495 x 516 mm</span>
+              <img
+                src="../media/images/boitier/boitier-gamer-corsair-carbide-spec.jpg "
+                alt=""
+              />
+              <span class="price">
+                479.000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">PC CASES ASUS TUF GT501 RGB</span>
+              <span class="info">Dimension: 255 x 580 x 685 mm</span>
+              <img
+                src="../media/images/boitier/boitier-gaming-asus-tuf.jpg"
+                alt=""
+              />
+              <span class="price">
+                519,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name"> PC CASES MSI MPG SEKIRA </span>
+              <span class="info">Dimension: 550 x 505 x 327 mm</span>
+              <img
+                src="../media/images/boitier/boitier-gamer-msi-mag-forge.jpg"
+                alt=""
+              />
+              <span class="price">
+                859,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name"> PC CASES CORSAIR GRAPHITE 780T </span>
+              <span class="info">Dimension: 602 x 500 x 210 mm</span>
+              <img
+                src="../media/images/boitier/boitier-gamer-corsair-graphite.jpg"
+                alt=""
+              />
+              <span class="price">
+                706.000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <span>&lt;</span>
+          <span>1</span>
+          <span>2</span>
+          <span class="pointed">...</span>
+          <span>5</span>
+          <span>&gt;</span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div>
+          <strong>OUR SERVICES</strong>
+          <ol>
+            <li>SATISFIED OR REFUNDED</li>
+            <li>CASH ON DELIVERY</li>
+            <li>FREE IN 48H FROM 300DT</li>
+            <li>100% SECURE ONLINE PAYMENT</li>
+            <li>CONTACT US AT 36 010 010</li>
+          </ol>
+        </div>
+        <div>
+          <strong>CONTACT INFORMATION</strong>
+          <ul>
+            <li>
+              <img src="../media/svgs/location.svg" alt="location" />
+              58, Rue de L'industrie Charguia I 2035 tunis
+            </li>
+            <li>
+              <img src="../media/svgs/phone.svg" alt="phone" />
+              (+216) 36 010010
+            </li>
+            <li>
+              <img src="../media/svgs/mail.svg" alt="phone" />
+              info@computer-shop.tn
+            </li>
+          </ul>
+        </div>
+        <div>
+          <strong>FOLLOW US</strong>
+          <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">
+              <img
+                src="../media/images/social media/facebook.png"
+                alt="facebook"
+              />
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+              <img
+                src="../media/images/social media/instagram.png"
+                alt="instagram"
+              />
+            </a>
+            <a href="https://twitter.com/?lang=en" target="_blank">
+              <img
+                src="../media/images/social media/twitter.png"
+                alt="twitter"
+              />
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+              <img
+                src="../media/images/social media/youtube.png"
+                alt="youtube"
+              />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+              <img
+                src="../media/images/social media/linkedin.png"
+                alt="linkedin"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">&copy; 2022 Powered by Computer Shope</div>
+    </footer>
+  </body>
+</html>

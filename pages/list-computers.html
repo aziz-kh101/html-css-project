@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Shope WebSite - List Computers</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/slider.css" />
+    <link
+      rel="shortcut icon"
+      href="../media/images/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="../media/images/header-image.png" alt="nav image" />
+        <ul>
+          <li>
+            <a href="../index.html">home</a>
+          </li>
+          <li class="dropdown">
+            <a href="#">list of components</a>
+            <div class="dropdown-content">
+              <a href="#">Computer</a>
+              <a href="list-cases.html">Computer Cases</a>
+              <a href="list-graphic-cards.html">Carte Graphic</a>
+              <a href="list-monitors.html">Computer Monitor</a>
+              <a href="list-rams.html">Ram</a>
+            </div>
+          </li>
+          <li>
+            <a href="contact.html">contact us</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li class="buttons">
+            <a href="login.html" class="btn cl-btn">login</a>
+            <a href="sign-up.html" class="btn cl-btn rd-btn">signup</a>
+          </li>
+        </ul>
+      </nav>
+      <form action="" method="get">
+        <input
+          name="search"
+          class="text-input"
+          type="search"
+          placeholder="type here..."
+        />
+        <input class="btn rd-btn" type="submit" value="search" />
+        <a href="panier.html">
+          <div class="pannier" data-count="0">
+            <img src="../media/images/panier.png" alt="panier" />
+          </div>
+        </a>
+      </form>
+    </header>
+    <section>
+      <div class="list">
+        <aside class="filter">
+          <h1>Filter</h1>
+          <div class="filter-component">
+            <h5>Price</h5>
+            <div class="slider-container">
+              <div class="slider-track"></div>
+              <input type="range" min="0" max="100" value="0" id="slider-1" />
+              <input type="range" min="0" max="100" value="100" id="slider-2" />
+            </div>
+            <div class="values">
+              <span>0 DT</span>
+              <span>10 000 DT</span>
+            </div>
+          </div>
+
+          <div class="filter-component">
+            <h5>Manufacturers</h5>
+            <input id="lenovo" type="checkbox" />
+            <label for="lenovo"> Lenovo</label>
+            <input id="msi" type="checkbox" /> <label for="msi"> Msi</label>
+            <input id="hp" type="checkbox" /> <label for="hp"> HP</label>
+            <input id="dell" type="checkbox" /> <label for="dell"> Dell</label>
+          </div>
+
+          <div class="filter-component">
+            <h5>capacity</h5>
+            <input id="g8" type="checkbox" />
+            <label for="g8"> 8 Go</label>
+            <input id="g16" type="checkbox" />
+            <label for="g16"> 16 Go</label>
+            <input id="g32" type="checkbox" />
+            <label for="g32"> 32 Go</label>
+          </div>
+
+          <div class="filter-component">
+            <h5>status</h5>
+            <input id="new" type="checkbox" />
+            <label for="new"> New</label>
+            <input id="second" type="checkbox" />
+            <label for="second"> Second Hand </label>
+          </div>
+        </aside>
+
+        <div class="content">
+          <div class="component">
+            <article>
+              <span class="name">PC PORTABLE GAMER HP PAVILION</span>
+              <span class="info">I5 8GO/1TO GTX 1650</span>
+              <img src="../media/images/pcs/pc-hp-pavion5.webp" alt="" />
+              <span class="price">
+                2 899,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">PC PORTABLE GAMER ASUS GL504GM</span>
+              <span class="info">i5-8300HQ 8Go/1To GTX 1060</span>
+              <img src="../media/images/pcs/pc-asus-gl504.jpg" alt="" />
+              <span class="price">
+                4 949,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">PC PORTABLE GAMER MSI GF65</span>
+              <span class="info"
+                >i7-10750H | RTX 3060 | 16GB | 15.6" 144Hz</span
+              >
+              <img src="../media/images/pcs/pc-msi-gf65.webp" alt="" />
+              <span class="price">
+                5 107,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">PC PORTABLE HP VICTUS 15-FA0017NK</span>
+              <span class="info">i5-12500H - 8 Go - 512 Go SSD</span>
+              <img src="../media/images/pcs/pc-portable-hp-victus.jpg" alt="" />
+              <span class="price">
+                2 569,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">
+                PC PORTABLE LENOVO IDEAPAD GAMING 3 15IHU6
+              </span>
+              <span class="info">I5-11320H / 24 GO / GTX 1650 4GB / NOIR</span>
+              <img
+                src="../media/images/pcs/ppc-portable-lenovo-ideapad.jpg"
+                alt=""
+              />
+              <span class="price">
+                2 678,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name"> PC PORTABLE MSI GAMING GF63 THIN 11SC </span>
+              <span class="info">
+                I5 11È GÉN / 16 GO / GTX 1650 4G + SAC À DOS MSI ESSENTIAL G34
+              </span>
+              <img
+                src="../media/images/pcs/pc-portable-msi-gaming-gf63.jpg"
+                alt=""
+              />
+              <span class="price">
+                2 758,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">PC PORTABLE GAMER HP PAVILION</span>
+              <span class="info"> I5 11È GÉN / 12 GO / GTX 1650 4G</span>
+              <img
+                src="../media/images/pcs/pc-portable-hp-pavilion-gaming-17.jpg"
+                alt=""
+              />
+              <span class="price">
+                2 779,000 DT TTC TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">PC PORTABLE ASUS ROG STRIX G15 </span>
+              <span class="info"> RYZEN 7 6800H / 16 GO / GRIS </span>
+              <img
+                src="../media/images/pcs/pc-portable-asus-rog-strix-g15.jpg"
+                alt=""
+              />
+              <span class="price">
+                5 389,000 TND .<i data-stock="false">on demand </i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">PC PORTABLE LENOVO LEGION 5 PRO 16ACH6H</span>
+              <span class="info">
+                RYZEN 7 5800H / 16 GO / RTX 3070 8GB / NOIR
+              </span>
+              <img
+                src="../media/images/pcs/pc-portable-lenovo-legion-5-pro.jpg"
+                alt=""
+              />
+              <span class="price">
+                5 719,000 TND .<i data-stock="false">on demand </i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <span>&lt;</span>
+          <span>1</span>
+          <span>2</span>
+          <span class="pointed">...</span>
+          <span>5</span>
+          <span>&gt;</span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div>
+          <strong>OUR SERVICES</strong>
+          <ol>
+            <li>SATISFIED OR REFUNDED</li>
+            <li>CASH ON DELIVERY</li>
+            <li>FREE IN 48H FROM 300DT</li>
+            <li>100% SECURE ONLINE PAYMENT</li>
+            <li>CONTACT US AT 36 010 010</li>
+          </ol>
+        </div>
+        <div>
+          <strong>CONTACT INFORMATION</strong>
+          <ul>
+            <li>
+              <img src="../media/svgs/location.svg" alt="location" />
+              58, Rue de L'industrie Charguia I 2035 tunis
+            </li>
+            <li>
+              <img src="../media/svgs/phone.svg" alt="phone" />
+              (+216) 36 010010
+            </li>
+            <li>
+              <img src="../media/svgs/mail.svg" alt="phone" />
+              info@computer-shop.tn
+            </li>
+          </ul>
+        </div>
+        <div>
+          <strong>FOLLOW US</strong>
+          <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">
+              <img
+                src="../media/images/social media/facebook.png"
+                alt="facebook"
+              />
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+              <img
+                src="../media/images/social media/instagram.png"
+                alt="instagram"
+              />
+            </a>
+            <a href="https://twitter.com/?lang=en" target="_blank">
+              <img
+                src="../media/images/social media/twitter.png"
+                alt="twitter"
+              />
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+              <img
+                src="../media/images/social media/youtube.png"
+                alt="youtube"
+              />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+              <img
+                src="../media/images/social media/linkedin.png"
+                alt="linkedin"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">&copy; 2022 Powered by Computer Shope</div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Shope WebSite - List Rams</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/slider.css" />
+    <link
+      rel="shortcut icon"
+      href="../media/images/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="../media/images/header-image.png" alt="nav image" />
+        <ul>
+          <li>
+            <a href="../index.html">home</a>
+          </li>
+          <li class="dropdown">
+            <a href="#">list of components</a>
+            <div class="dropdown-content">
+              <a href="list-computers.html">Computer</a>
+              <a href="list-cases.html">Computer Cases</a>
+              <a href="list-graphic-cards.html">Carte Graphic</a>
+              <a href="list-monitors.html">Computer Monitor</a>
+              <a href="#">Ram</a>
+            </div>
+          </li>
+          <li>
+            <a href="contact.html">contact us</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li class="buttons">
+            <a href="login.html" class="btn cl-btn">login</a>
+            <a href="sign-up.html" class="btn cl-btn rd-btn">signup</a>
+          </li>
+        </ul>
+      </nav>
+      <form action="" method="get">
+        <input
+          name="search"
+          class="text-input"
+          type="search"
+          placeholder="type here..."
+        />
+        <input class="btn rd-btn" type="submit" value="search" />
+        <a href="panier.html">
+          <div class="pannier" data-count="0">
+            <img src="../media/images/panier.png" alt="panier" />
+          </div>
+        </a>
+      </form>
+    </header>
+    <section>
+      <div class="list">
+        <aside class="filter">
+          <h1>Filter</h1>
+          <div class="filter-component">
+            <h5>Price</h5>
+            <div class="slider-container">
+              <div class="slider-track"></div>
+              <input type="range" min="0" max="100" value="0" id="slider-1" />
+              <input type="range" min="0" max="100" value="100" id="slider-2" />
+            </div>
+            <div class="values">
+              <span>0 DT</span>
+              <span>10 000 DT</span>
+            </div>
+          </div>
+
+          <div class="filter-component">
+            <h5>Manufacturers</h5>
+            <input id="lenovo" type="checkbox" />
+            <label for="lenovo"> Lenovo</label>
+            <input id="msi" type="checkbox" /> <label for="msi"> Msi</label>
+            <input id="hp" type="checkbox" /> <label for="hp"> HP</label>
+            <input id="dell" type="checkbox" /> <label for="dell"> Dell</label>
+          </div>
+
+          <div class="filter-component">
+            <h5>capacity</h5>
+            <input id="g8" type="checkbox" />
+            <label for="g8"> 8 Go</label>
+            <input id="g16" type="checkbox" />
+            <label for="g16"> 16 Go</label>
+            <input id="g32" type="checkbox" />
+            <label for="g32"> 32 Go</label>
+          </div>
+
+          <div class="filter-component">
+            <h5>status</h5>
+            <input id="new" type="checkbox" />
+            <label for="new"> New</label>
+            <input id="second" type="checkbox" />
+            <label for="second"> Second Hand </label>
+          </div>
+        </aside>
+
+        <div class="content">
+          <div class="component">
+            <article>
+              <span class="name">Crucial gamer PC </span>
+              <span class="info">DDR4 8 Go 2400</span>
+              <img
+                src="../media/images/ram/barrette-mémoire-crucial-ddr4-8-go-gamer-pc-2400-.jpg"
+                alt=""
+              />
+              <span class="price">
+                114,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name"> TEAM DELTA R Black </span>
+              <span class="info">32GB 3200Mhz</span>
+              <img
+                src="../media/images/ram/32gb-x-1-team-delta-r-black-32gb-3200mhz-ram-pc-gamer-desktopma.jpg"
+                alt=""
+              />
+              <span class="price">
+                254,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">KINGSTON TECHNOLOGY Beast</span>
+              <span class="info">RAM DDR5 16 Go</span>
+              <img
+                src="../media/images/ram/kingston-technology-beast-ram-ddr5-16-go-2-x-8-go.webp"
+                alt=""
+              />
+              <span class="price">
+                480,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">XPG SPECTRIX DT60 16GB</span>
+              <span class="info">3200MHz DDR4 RGB</span>
+              <img src="../media/images/ram/xpg.webp" alt="" />
+              <span class="price">
+                289,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name"> EPIC-X RGB </span>
+              <span class="info">DDR4 3200MHz-16GB</span>
+              <img src="../media/images/ram/pny.webp" alt="" />
+              <span class="price">
+                318,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">XPG GAMMIX 32GB</span>
+              <span class="info">DDR4 3200MHz Black</span>
+              <img src="../media/images/ram/xpg-2.webp" alt="" />
+              <span class="price">
+                489,000 TND .<i data-stock="true">In Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name">XPG SPECTRIX DT60 RGB 32GB </span>
+              <span class="info">DDR4 3200MHz CL16 GREY</span>
+              <img src="../media/images/ram/xpg-3.webp" alt="" />
+              <span class="price">
+                598,000 TND .<i data-stock="false">Hors Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name"> XPG LANCER 32 GB</span>
+              <span class="info">5200MHz DDR5 RGB</span>
+              <img src="../media/images/ram/XPG LANCER 32 GB.webp" alt="" />
+              <span class="price">
+                1 099,000 TND .<i data-stock="false">Hors Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+
+          <div class="component">
+            <article>
+              <span class="name"> Gigabyte Designare</span>
+              <span class="info">64GB (2X32GB) 3200 Mhz</span>
+              <img src="../media/images/ram/gigabyte.webp" alt="" />
+              <span class="price">
+                1 418,000 TND .<i data-stock="false">Hors Stock</i>
+              </span>
+              <a href="details.html" target="_blank">see more</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <span>&lt;</span>
+          <span>1</span>
+          <span>2</span>
+          <span class="pointed">...</span>
+          <span>5</span>
+          <span>&gt;</span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div>
+          <strong>OUR SERVICES</strong>
+          <ol>
+            <li>SATISFIED OR REFUNDED</li>
+            <li>CASH ON DELIVERY</li>
+            <li>FREE IN 48H FROM 300DT</li>
+            <li>100% SECURE ONLINE PAYMENT</li>
+            <li>CONTACT US AT 36 010 010</li>
+          </ol>
+        </div>
+        <div>
+          <strong>CONTACT INFORMATION</strong>
+          <ul>
+            <li>
+              <img src="../media/svgs/location.svg" alt="location" />
+              58, Rue de L'industrie Charguia I 2035 tunis
+            </li>
+            <li>
+              <img src="../media/svgs/phone.svg" alt="phone" />
+              (+216) 36 010010
+            </li>
+            <li>
+              <img src="../media/svgs/mail.svg" alt="phone" />
+              info@computer-shop.tn
+            </li>
+          </ul>
+        </div>
+        <div>
+          <strong>FOLLOW US</strong>
+          <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">
+              <img
+                src="../media/images/social media/facebook.png"
+                alt="facebook"
+              />
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+              <img
+                src="../media/images/social media/instagram.png"
+                alt="instagram"
+              />
+            </a>
+            <a href="https://twitter.com/?lang=en" target="_blank">
+              <img
+                src="../media/images/social media/twitter.png"
+                alt="twitter"
+              />
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+              <img
+                src="../media/images/social media/youtube.png"
+                alt="youtube"
+              />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+              <img
+                src="../media/images/social media/linkedin.png"
+                alt="linkedin"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">&copy; 2022 Powered by Computer Shope</div>
+    </footer>
+  </body>
+</html>

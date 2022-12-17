@@ -1,0 +1,63 @@
+section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section p {
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+section .about {
+  max-width: 35rem;
+  color: lightslategray;
+}
+
+section .about h5 {
+  color: var(--main-color);
+}
+
+.form {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-row: 1fr 1fr 3fr 1fr;
+  gap: 0.5rem;
+  max-width: 20rem;
+  width: 100%;
+}
+
+.form :is(input, textarea) {
+  position: relative;
+  align-self: stretch;
+  border: 1px solid black;
+  padding: 0.6rem 0.5rem;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  background-color: white;
+}
+
+.form :is(input, textarea):required + span::after {
+  content: "*";
+  color: red;
+}
+
+.form textarea {
+  resize: none;
+}
+
+.form :is(input, textarea):focus-visible {
+  outline: none;
+  border: 1px dotted var(--main-color);
+}
+
+.form input[type="submit"] {
+  height: 1.75rem;
+  border: none;
+  background-color: var(--main-color);
+  color: white;
+  line-height: 0;
+  grid-column: 2 / 3;
+}

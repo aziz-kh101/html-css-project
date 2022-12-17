@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Shope WebSite - Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="media/images/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="media/images/header-image.png" alt="nav image" />
+        <ul>
+          <li>
+            <a href="#">home</a>
+          </li>
+          <li class="dropdown">
+            <a href="#">list of components</a>
+            <div class="dropdown-content">
+              <a href="pages/list-computers.html">Computer</a>
+              <a href="pages/list-cases.html">Computer Cases</a>
+              <a href="pages/list-graphic-cards.html">Carte Graphic</a>
+              <a href="pages/list-monitors.html">Computer Monitor</a>
+              <a href="pages/list-rams.html">Ram</a>
+            </div>
+          </li>
+          <li>
+            <a href="pages/contact.html">contact us</a>
+          </li>
+          <li>
+            <a href="pages/about.html">about</a>
+          </li>
+          <li class="buttons">
+            <a href="pages/login.html" class="btn cl-btn">login</a>
+            <a href="pages/sign-up.html" class="btn cl-btn rd-btn">signup</a>
+          </li>
+        </ul>
+      </nav>
+      <form action="" method="get">
+        <input
+          id="search"
+          name="search"
+          class="text-input"
+          type="search"
+          placeholder="type here..."
+        />
+        <input
+          class="btn rd-btn"
+          type="submit"
+          value="search"
+          onclick="event.preventDefault();alert(document.querySelector('#search').value);"
+        />
+
+        <a href="pages/panier.html">
+          <div class="pannier" data-count="0">
+            <img src="media/images/panier.png" alt="panier" />
+          </div>
+        </a>
+      </form>
+    </header>
+    <section>
+      <h2>Select Pc Portable Gamer</h2>
+      <div class="list-component">
+        <div class="component">
+          <article>
+            <span class="name">PC PORTABLE GAMER HP PAVILION</span>
+            <span class="info">I5 8GO/1TO GTX 1650</span>
+            <img src="media/images/pcs/pc-hp-pavion5.webp" alt="" />
+            <span class="price">
+              2 899,000 TND .<i data-stock="true">In Stock</i>
+            </span>
+            <a href="pages/details.html" target="_blank">see more</a>
+          </article>
+        </div>
+
+        <div class="component">
+          <article>
+            <span class="name">PC PORTABLE GAMER ASUS GL504GM</span>
+            <span class="info">i5-8300HQ 8Go/1To GTX 1060</span>
+            <img src="media/images/pcs/pc-asus-gl504.jpg" alt="" />
+            <span class="price">
+              4 949,000 TND .<i data-stock="true">In Stock</i>
+            </span>
+            <a href="pages/details.html" target="_blank">see more</a>
+          </article>
+        </div>
+
+        <div class="component">
+          <article>
+            <span class="name">PC PORTABLE GAMER MSI GF65</span>
+            <span class="info">i7-10750H | RTX 3060 | 16GB | 15.6" 144Hz</span>
+            <img src="media/images/pcs/pc-msi-gf65.webp" alt="" />
+            <span class="price">
+              5 107,000 TND .<i data-stock="true">In Stock</i>
+            </span>
+            <a href="pages/details.html" target="_blank">see more</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <img class="banner" src="media/images/banner-asus-pc.jpg" alt="banner-pc" />
+
+    <section>
+      <h2>Select PC Cases Gamer</h2>
+      <div class="list-component">
+        <div class="component">
+          <article>
+            <span class="name">PC CASES COUGAR GAMER CONQUER</span>
+            <span class="info">Dimension: 255 x 580 x 685 mm</span>
+            <img src="media/images/boitier/boiter-conquer.jpg" alt="" />
+            <span class="price">
+              947,000 TND .<i data-stock="true">In Stock</i>
+            </span>
+            <a href="pages/details.html" target="_blank">see more</a>
+          </article>
+        </div>
+
+        <div class="component">
+          <article>
+            <span class="name"
+              >PC CASES MARS GAMING MC51 PREMIUM WHITE ARGB</span
+            >
+            <span class="info">Dimension: 550 x 505 x 327 mm</span>
+            <img src="media/images/boitier/boitier-mars.webp" alt="" />
+            <span class="price">
+              299,000 TND .<i data-stock="true">In Stock</i>
+            </span>
+            <a href="pages/details.html" target="_blank">see more</a>
+          </article>
+        </div>
+
+        <div class="component">
+          <article>
+            <span class="name">PC CASES HAVIT GAMER CF922</span>
+            <span class="info">Dimension: 602 x 500 x 210 mm</span>
+            <img src="media/images/boitier/boitier-havit.jpg" alt="" />
+            <span class="price">
+              188.000 TND .<i data-stock="true">In Stock</i>
+            </span>
+            <a href="pages/details.html" target="_blank">see more</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Select Graphic Card</h2>
+      <div class="list-component">
+        <div class="component">
+          <article>
+            <span class="name">ASUS GeForce ROG STRIX RTX3070TI</span>
+            <span class="info"> PCI Express 4.0 16x - 8 Go Memory GDDR6X </span>
+            <img
+              src="media/images/carte graphic/graphique-asus-rtx3070ti.jpg"
+              alt=""
+            />
+            <span class="price">
+              2 859,000 TND .<i data-stock="true">In Stock</i>
+            </span>
+            <a href="pages/details.html" target="_blank">see more</a>
+          </article>
+        </div>
+
+        <div class="component">
+          <article>
+            <span class="name">MSI GEFORCE RTX 3050</span>
+            <span class="info">PCI Express 4.0 x8 - 8 Go Memory GDDR6</span>
+            <img
+              src="media/images/carte graphic/carte-graphique-msi-geforce-rtx-3050.jpg"
+              alt=""
+            />
+            <span class="price">
+              1 197,000 TND .<i data-stock="true">In Stock</i>
+            </span>
+            <a href="pages/details.html" target="_blank">see more</a>
+          </article>
+        </div>
+
+        <div class="component">
+          <article>
+            <span class="name">MSI GeForce GTX 1070</span>
+            <span class="info">
+              chipset Frequence 1607 GHz - 1797 GHz - 8Go
+            </span>
+            <img
+              src="media/images/carte graphic/carte-graphique-msi-geforce-gtx-1070.jpg"
+              alt=""
+            />
+            <span class="price">
+              1 699.000 TND .<i data-stock="true">In Stock</i>
+            </span>
+            <a href="pages/details.html" target="_blank">see more</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <img
+      class="banner"
+      src="media/images/banner-lenovo-pc.jpg"
+      alt="banner-pc"
+    />
+
+    <section>
+      <h2>Select Pc Monitor Gaming</h2>
+      <div class="list-component">
+        <div class="component">
+          <article>
+            <span class="name">Monitor Gaming Incurvé AOC</span>
+            <span class="info"> 23.6" C24G2 165 HZ </span>
+            <img
+              src="media/images/ecran/ecran-gaming-incurve-aoc-236-c24g2-165-hz.jpg"
+              alt=""
+            />
+            <span class="price">
+              719,000 TND .<i data-stock="true">In Stock</i>
+            </span>
+            <a href="pages/details.html" target="_blank">see more</a>
+          </article>
+        </div>
+
+        <div class="component">
+          <article>
+            <span class="name">Monitor Gaming Incurvé REDRAGON</span>
+            <span class="info">Mirror 24" WLED Full HD / 144 Hz / Noir</span>
+            <img
+              src="media/images/ecran/ecran-gaming-incurve-redragon-mirror-24-wled-full-hd-144-hz-noir.jpg"
+              alt=""
+            />
+            <span class="price">
+              559,000 TND .<i data-stock="true">In Stock</i>
+            </span>
+            <a href="pages/details.html" target="_blank">see more</a>
+          </article>
+        </div>
+
+        <div class="component">
+          <article>
+            <span class="name">Monitor GAMING 24¨ VG24VQE 23,6 CURVED</span>
+            <span class="info">
+              Size: 23.6"FULL HD Resolution: 1920 x 1080 px
+            </span>
+            <img
+              src="media/images/ecran/asus-ecran-gaming-24-curved.webp"
+              alt=""
+            />
+            <span class="price">
+              739.000 TND .<i data-stock="true">In Stock</i>
+            </span>
+            <a href="pages/details.html" target="_blank">see more</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Our shops</h2>
+      <div class="center-wrapper">
+        <div class="places">
+          <div class="place">
+            <div class="image-wraper">
+              <img src="media/images/places/charguia.png" alt="" />
+            </div>
+            <div class="title">
+              <div class="holder"></div>
+              <strong>Megastore Tunis Charguia 1</strong>
+            </div>
+            <span><strong>Phone:</strong> 36 010 010</span>
+            <span><strong>Mail:</strong> store@computer-shop.tn</span>
+            <span><strong>Work houres:</strong> 8:00 -&raquo; 18:00</span>
+          </div>
+
+          <div class="place">
+            <div class="image-wraper">
+              <img src="media/images/places/sousse.png" alt="" />
+            </div>
+            <div class="title">
+              <div class="holder"></div>
+              <strong>Megastore Sousse Akouda</strong>
+            </div>
+            <span><strong>Phone:</strong> 36 010 011</span>
+            <span><strong>Mail:</strong> store@computer-shop.tn</span>
+            <span><strong>Work houres:</strong> 8:00 -&raquo; 18:00</span>
+          </div>
+
+          <div class="place">
+            <div class="image-wraper">
+              <img src="media/images/places/nabeul.png" alt="" />
+            </div>
+            <div class="title">
+              <div class="holder"></div>
+              <strong>Megastore Nabeul</strong>
+            </div>
+            <span><strong>Phone:</strong> 36 010 012</span>
+            <span><strong>Mail:</strong> store@computer-shop.tn</span>
+            <span><strong>Work houres:</strong> 8:00 -&raquo; 18:00</span>
+          </div>
+
+          <div class="place">
+            <div class="image-wraper">
+              <img src="media/images/places/bizerte.png" alt="" />
+            </div>
+            <div class="title">
+              <div class="holder"></div>
+              <strong>Magasin Bizerte</strong>
+            </div>
+            <span><strong>Phone:</strong> 36 010 013</span>
+            <span><strong>Mail:</strong> store@computer-shop.tn</span>
+            <span><strong>Work houres:</strong> 8:00 -&raquo; 18:00</span>
+          </div>
+
+          <div class="place">
+            <div class="image-wraper">
+              <img src="media/images/places/tunis.png" alt="" />
+            </div>
+            <div class="title">
+              <div class="holder"></div>
+              <strong>Magasin Tunis Centre</strong>
+            </div>
+            <span><strong>Phone:</strong> 36 010 014</span>
+            <span><strong>Mail:</strong> store@computer-shop.tn</span>
+            <span><strong>Work houres:</strong> 8:00 -&raquo; 18:00</span>
+          </div>
+
+          <div class="place">
+            <div class="image-wraper">
+              <img src="media/images/places/sousse.png" alt="" />
+            </div>
+            <div class="title">
+              <div class="holder"></div>
+              <strong>Magasin Sousse Centre</strong>
+            </div>
+            <span><strong>Phone:</strong> 36 010 015</span>
+            <span><strong>Mail:</strong> store@computer-shop.tn</span>
+            <span><strong>Work houres:</strong> 8:00 -&raquo; 18:00</span>
+          </div>
+
+          <div class="place">
+            <div class="image-wraper">
+              <img src="media/images/service.jpeg" alt="" />
+            </div>
+            <div class="title">
+              <div class="holder"></div>
+              <strong>Enterprise Services</strong>
+            </div>
+            <span><strong>Phone:</strong> 36 010 016</span>
+            <span><strong>Mail:</strong> store@computer-shop.tn</span>
+            <span><strong>Work houres:</strong> 8:00 -&raquo; 18:00</span>
+          </div>
+
+          <div class="place">
+            <div class="image-wraper">
+              <img src="media/images/repair.png" alt="" />
+            </div>
+            <div class="title">
+              <div class="holder"></div>
+              <strong>After sales service</strong>
+            </div>
+            <span><strong>Phone:</strong> 36 010 017</span>
+            <span><strong>Mail:</strong> store@computer-shop.tn</span>
+            <span><strong>Work houres:</strong> 8:00 -&raquo; 18:00</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div>
+          <strong>OUR SERVICES</strong>
+          <ol>
+            <li>SATISFIED OR REFUNDED</li>
+            <li>CASH ON DELIVERY</li>
+            <li>FREE IN 48H FROM 300DT</li>
+            <li>100% SECURE ONLINE PAYMENT</li>
+            <li>CONTACT US AT 36 010 010</li>
+          </ol>
+        </div>
+        <div>
+          <strong>CONTACT INFORMATION</strong>
+          <ul>
+            <li>
+              <img src="media/svgs/location.svg" alt="location" />
+              58, Rue de L'industrie Charguia I 2035 tunis
+            </li>
+            <li>
+              <img src="media/svgs/phone.svg" alt="phone" />
+              (+216) 36 010010
+            </li>
+            <li>
+              <img src="media/svgs/mail.svg" alt="phone" />
+              info@computer-shop.tn
+            </li>
+          </ul>
+        </div>
+        <div>
+          <strong>FOLLOW US</strong>
+          <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">
+              <img
+                src="media/images/social media/facebook.png"
+                alt="facebook"
+              />
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+              <img
+                src="media/images/social media/instagram.png"
+                alt="instagram"
+              />
+            </a>
+            <a href="https://twitter.com/?lang=en" target="_blank">
+              <img src="media/images/social media/twitter.png" alt="twitter" />
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+              <img src="media/images/social media/youtube.png" alt="youtube" />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+              <img
+                src="media/images/social media/linkedin.png"
+                alt="linkedin"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">&copy; 2022 Powered by Computer Shope</div>
+    </footer>
+  </body>
+</html>
